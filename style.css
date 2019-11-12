@@ -1,0 +1,159 @@
+body {
+	text-align: center;
+	font-family: century-gothic, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+h1, h2 {
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+#logo {
+	float: left;
+}
+
+
+.jumbotron {
+	background-image: url(greenhouse.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+
+.header {
+	padding: 200px; 
+	color:  #ffffff;
+}
+
+#aboutHeader {
+	padding: 200px; 
+	color:  #ffffff;	
+}
+
+.nav {
+	float: right;
+}
+.nav-item {
+	padding: 10px; 
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+
+	 
+}
+
+li a {
+	color: #ffffff;
+}
+
+li a:hover { 
+	background-color: #ffffff;
+	color: #ffffff;
+}
+
+h1 h2 {
+	padding: 20px;
+}
+
+.buttonLearn {
+margin: 5px 10px 5px 10px;
+border: solid #249EF6 4px; /*blue border*/
+background-color: transparent;
+color: #ffffff;
+font-family: century-gothic, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+#highlights {
+	padding: 100px;
+	
+	text-align: center;
+}
+
+#icon{
+	padding: 50px;
+}
+
+#introduction {
+	padding: 100px;
+	background-color: #fafafa;
+	text-align: center;
+	
+}
+ 
+#process {
+	padding: 50px;
+
+}
+
+#benefits {
+	padding: 100px;
+	text-align: center;
+
+}
+
+#graph {
+	padding: 100px;
+	background-color: #fafafa;
+	text-align: center;
+}
+
+
+
+.buttonContact { 
+border: solid #249EF6 2px; /*blue border*/
+background-color: transparent;
+color: #249EF6;
+font-family: century-gothic, sans-serif;
+font-weight: 700;
+font-style: normal;
+ }
+
+ #graphText {
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #249EF6;
+
+ }
+
+h5 {
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+#potential { 
+	padding: 150px;
+	background-image: url(greenhouse.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+	color: #ffffff;
+ }
+
+ #testimonials {
+ 	background-color: #a9a9a9;
+ 	height: 500px;
+ 	padding: 150px;
+ }
+
+.carousel-item {
+
+}
+
+
+#caroselContent {
+
+}
+
+/*.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display:block;
+    padding: 20px;
+}
