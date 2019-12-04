@@ -3,13 +3,32 @@ body {
 	font-family: century-gothic, sans-serif;
 	font-weight: 400;
 	font-style: normal;
+	max-width: 100%;
+    overflow-x: hidden;
+}
+
+@media only screen and (min-width: 1100px) {
+	.row * {
+		max-width:1200px;
+		margin:0 auto;
+	}
+}
+
+h1 {
+	font-family: century-gothic, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+	padding: 20px;
 
 }
 
-h1, h2 {
+
+ h2 {
 	font-family: century-gothic, sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	padding: 20px;
+	margin:0 auto;
 }
 
 #logo {
@@ -17,23 +36,30 @@ h1, h2 {
 }
 
 
-.jumbotron {
-	background-image: url(greenhouse.png);
+#homeHeader {
+	background-image: url(bright-greenhouse.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-top: 20px;
+	background-position:top;
 
 }
 
-
 .header {
-	padding: 200px; 
+	padding: 10% 20%; 
 	color:  #ffffff;
 }
 
-#aboutHeader {
+@media only screen and (max-width: 900px) {
+  .header {
+    padding:20% 0;
+  }
+}
+
+/*#aboutHeader {
 	padding: 200px; 
 	color:  #ffffff;	
-}
+} */
 
 .nav {
 	float: right;
@@ -52,16 +78,17 @@ li a {
 }
 
 li a:hover { 
-	background-color: #ffffff;
-	color: #ffffff;
+	color: #249EF6;
+	text-decoration-line: none;
 }
 
-h1 h2 {
+ 
+img {
 	padding: 20px;
 }
 
 .buttonLearn {
-margin: 5px 10px 5px 10px;
+margin: 30px;
 border: solid #249EF6 4px; /*blue border*/
 background-color: transparent;
 color: #ffffff;
@@ -77,18 +104,19 @@ font-style: normal;
 }
 
 #icon{
-	padding: 50px;
+	height:95px;
 }
 
 #introduction {
 	padding: 100px;
-	background-color: #fafafa;
+	background-color: #F5F5F5;
 	text-align: center;
 	
 }
  
 #process {
-	padding: 50px;
+	padding: 8% 0px;
+	width:100%;
 
 }
 
@@ -100,11 +128,16 @@ font-style: normal;
 
 #graph {
 	padding: 100px;
-	background-color: #fafafa;
+	background-color: #F5F5F5;
 	text-align: center;
+
 }
 
-
+.dots{
+	
+	max-height:600px;
+	min-height:300px;
+}
 
 .buttonContact { 
 border: solid #249EF6 2px; /*blue border*/
@@ -113,47 +146,309 @@ color: #249EF6;
 font-family: century-gothic, sans-serif;
 font-weight: 700;
 font-style: normal;
+margin-top: 20px;
  }
 
  #graphText {
+	color: #249EF6;
+ }
+
+h5, h6 {
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+#increaseQuality {
+	padding: 100px;
+
+}
+
+.full-width {
+	width:100%;
+	max-width:350px;
+}
+
+#quality { 
+padding: 50px;
+}
+
+#potential { 
+	background-image: url(greenhouse.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:20%;
+	color: #ffffff;
+	text-align:center;
+ }
+
+ #testimonials {
+ 	padding:50px 0;
+ 	height:15%;
+ }
+
+.carousel-text {
+	max-width:85%;
+	margin:0 auto;
+	text-align: left;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 60px;
+  color: #249EF6;
+  padding: 10px;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 60px;
+  color: #249EF6;
+  padding: 10px;
+}
+
+#partner {
+	max-width:85%;
+	margin:0 auto;
+	text-align: right;
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+#city {
+	max-width:85%;
+	margin:0 auto;
+	text-align: right;
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #32CD32;
+}
+
+.carousel {
+	margin:!important;
+}
+/*
+#carouselContent {
+	background-color: #a9a9a9;
+}*/
+
+
+
+.carousel-indicators li {
+    border-radius: 50%;
+    border: 1px;
+    border-color: #404040;
+    width: 12px;
+    height: 12px;
+    background-color: #404040;
+}
+
+
+#aboutHeader {
+	background-image: url(sprout.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+}
+
+#technologyHeader{
+	background-image: url(bright-greenhouse.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+}
+
+#markets {
+	padding: 80px;
+}
+
+.states {
+	width:100%;
+	max-width:900px;
+	margin:0 auto;
+}
+
+#team {
+	padding: 100px;
+	background-color: #F5F5F5; /*grey background*/
+}
+
+#headshot {
+	padding: 50px;
+}
+
+#teamText {
 	font-family: century-gothic, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 	color: #249EF6;
 
- }
+}
 
-h5 {
+#howItWorks {
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+#processGraphic {
+	padding: 100px 50px;
+}
+
+#beforeAndAfter {
+	padding: 20px;
 	font-family: century-gothic, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
 
-#potential { 
-	padding: 150px;
-	background-image: url(greenhouse.png);
+.buttonMore {
+	margin: 5px 10px 5px 10px;
+	border: solid #249EF6 4px; /*blue border*/
+	background-color: transparent;
+	color: #249EF6;
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+
+}
+
+#applications {
+	padding: 100px;
+	background-color: #F5F5F5;
+}
+
+#applicationsGraph{
+	max-width:600px;
+}
+
+#industries {
+	padding: 100px;
+}
+
+#cannabis {
+	  text-align: center;
+	  color: black;
+	  background-image: url(cannabis_leaves.png);
+	  max-width:800px;
+	  margin:0 auto;
+	  background-size:cover;
+	  font-size:12px;
+	  padding:20px 0;
+}
+
+
+#hemp {
+	  text-align: center;
+	  color: black;
+	  background-image: url(hemp_leaves.png);
+	  max-width:800px;
+	  margin:0 auto;
+	  background-size:cover;
+	  font-size:12px;
+	  padding:20px 0;
+}
+
+
+#hops {
+	  text-align: center;
+	  color: black;
+	  background-image: url(hops_triangle_image.png);
+	  max-width:800px;
+	  margin:0 auto;
+	  background-size:cover;
+  	  font-size:12px;
+  	  padding:20px 0;
+}
+
+#caseStudies {
+	padding: 75px;
+
+}
+
+
+
+#solutionsRow {
+	text-align: left;
+	padding-top: 20px;
+}
+
+#nm, #questions {
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	padding: 20px;
+	margin:0 auto;
+	color: #249EF6;
+
+}
+
+#solutions {
+	text-align: left;
+	padding: 20px;
+}
+
+#contactHeader {
+	background-image: url(contact_header.png);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 700px;
+	padding-top: 20px;
+
+}
+
+#faq {
+	background-color: #ececec;
+}
+
+
+#questionText {
+	text-align: left;
+	padding: 20px;
+}
+
+.footer {
+	height: 120px;
+	background-color: #696969;
 	color: #ffffff;
- }
+	
+}
 
- #testimonials {
- 	background-color: #a9a9a9;
- 	height: 500px;
- 	padding: 150px;
- }
-
-.carousel-item {
+#footerText {
+	padding-top:50px;
+	font-family: century-gothic, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 
 }
 
 
-#caroselContent {
 
-}
 
-/*.carousel-item.active, .carousel-item-next, .carousel-item-prev {
-    display:block;
-    padding: 20px;
-}
+
+
+
+
+
+
+
