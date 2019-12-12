@@ -37,7 +37,7 @@ h1 {
 
 
 #homeHeader {
-	background-image: url(bright-greenhouse.png);
+	background-image: url(greenhouse.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 20px;
@@ -287,7 +287,12 @@ padding: 50px;
 
 #headshot {
 	padding: 50px;
+	border-radius: 50%;
+	height: 232px; 
+	width: 232px;
 }
+
+
 
 #teamText {
 	font-family: century-gothic, sans-serif;
@@ -414,7 +419,12 @@ padding: 50px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 20px;
+}
 
+#contactForm {
+	text-align: center;
+	display: inline-block;
+	margin-left: 400px;
 }
 
 #faq {
